@@ -155,8 +155,10 @@ a {
 .content {
     width: 100%;
     display: flex;
+    margin: 0;
     flex-direction: column;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .contatiner {
@@ -307,5 +309,6 @@ iframe {
     .contatiner {
         padding: 0;
         width: 90%;
+        padding: 0;
     }
 }
