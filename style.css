@@ -353,4 +353,16 @@ iframe {
         background-size: cover;
         background-repeat: no-repeat;
     }
+
+    .gallery-img {
+        max-width: fit-content;
+        border: none;
+    }
+
+    .galery > div {
+        max-width: 500px;
+        border: none;
+        margin: 0;
+        box-shadow: none;
+    }
 }
