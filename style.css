@@ -12,15 +12,18 @@ html, body, .header {
     padding: 0;
     margin: 0;
     width: 100vw;
+    min-width: -webkit-fill-available;
     vertical-align: baseline;
 }
 
 html {
     scroll-behavior: smooth;
+    min-width: -webkit-fill-available;
 }
 
 body {
     background-color: rgb(51, 50, 50);
+    min-width: -webkit-fill-available;
 }
 
 a {
@@ -33,8 +36,6 @@ a {
 .header {
     width: 100vw;
     height: 75vh;
-    margin-left: auto;
-    margin-right: auto;
     background-image: url("./assets/images/banner.jpg");
     background-size: cover;
     display: flex;
@@ -45,7 +46,7 @@ a {
 }
 
 .header-overlay-1 {
-    width: 100%;
+    width: 100vw;
     height: 75vh;
     top: 0;
     left: 0;
@@ -151,7 +152,7 @@ a {
 }
 
 .content {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
