@@ -302,13 +302,14 @@ iframe {
     }
     
     .menu-item {
-        font-size: 2rem;
+        font-size: 1.8em;
     }
 
     .menu {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        height: fit-content;
     }
 
     .header {
