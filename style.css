@@ -1,0 +1,305 @@
+@font-face {
+    font-family: CarlitoBold;
+    src: url("./assets/fonts/SAGRADA.otf") format("opentype");
+  }
+
+  @font-face {
+    font-family: General;
+    src: url("./assets/fonts/ostro.otf") format("opentype");
+  }
+
+html, body, .header {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    vertical-align: baseline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(51, 50, 50);
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    font-size: inherit;
+    font-weight: inherit;
+  }
+
+.header {
+    width: 100vw;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./assets/images/banner.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: General;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.header-overlay-1 {
+    width: 100%;
+    height: 75vh;
+    top: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    z-index: 2;
+    background-color: #66000093
+}
+
+.header-image {
+    width: 100%;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    position: absolute;
+}
+
+#header-image {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    border-image: fill;
+}
+
+.logo {
+    width: 250px;
+    height: 200px;
+    z-index: 5;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: relative;
+    background-image: url("./assets/images/logo.png");
+    background-size: contain;
+}
+
+.motto {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-family: CarlitoBold;
+    font-size: 5rem;
+    color: #d4a017;
+    z-index: 5;
+    white-space: 1.3rem;
+    justify-self: center;
+}
+
+.motto > span {
+    margin-right: 2.3rem;
+}
+
+.motto1 {
+    animation: fadeIn 1.5s;
+}
+.motto2 {
+    animation: fadeIn 3s;
+}
+.motto3 {
+    animation: fadeIn 4.5s;
+}
+.motto4 {
+    animation: fadeIn 6s;
+}
+.motto5 {
+    animation: fadeIn 7.5s;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #d49e178c;
+    color: rgb(51, 50, 50);
+    font-size: larger;
+    font-weight: 700;
+    z-index: 5;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu-item {
+    padding: 15px 10px 15px 10px;
+    margin-right: 20px;
+    width: 20%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size:2rem;
+    font-weight: 100;
+    line-height: normal;
+    transition: 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    background-color: rgb(51, 50, 50);
+    color: #d4a017;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.content {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contatiner {
+    width: 75%;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.sub-header {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1rem;
+    color: #d4a017;
+    transition: 1s ease-in-out;
+    border-radius: 30px;
+}
+
+.o_nama {
+    color: #d4a017;
+    font-size: larger;
+}
+
+#chi_ro_icon {
+    width: 50px;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.event {
+    color: rgb(51, 50, 50);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 18px;
+    padding: 15px;
+    align-items: stretch;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+    0 1px 18px 0 rgba(0, 0, 0, 0.12),
+    0 3px 5px -1px rgba(0, 0, 0, 0.4);
+    margin-bottom: 25px;
+    transition: 1s ease-in-out;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.event:hover {
+    box-shadow: 0 6px 10px 0 #d4a017,
+    0 1px 18px 0 #d4a017,
+    0 3px 5px -1px #d4a017;
+}
+
+.event-text > p {
+    text-align: start;
+}
+
+.event-text {
+    flex-grow: 2;
+    width: 50%;
+}
+
+.framed {
+    border: 1px solid #d4a017;
+}
+
+.bordered {
+    background-color: rgba(255, 221, 221, 0.37);
+}
+
+.event-img {
+    width: 50px;
+    margin-right: 35px;
+    flex-grow: 1;
+    background-image: url("./assets/images/sava.jpg");
+    background-size: 120%;
+    background-position: center;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+    0 1px 18px 0 rgba(0, 0, 0, 0.12),
+    0 3px 5px -1px rgba(0, 0, 0, 0.4);
+}
+
+.galery {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+    flex-wrap: wrap;
+}
+
+.galery > div {
+    max-width: 350px;
+    object-fit: cover;
+    margin: 20px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 6px 10px 0 #d4a017,
+    0 1px 18px 0 #d4a017,
+    0 3px 5px -1px #d4a017;
+}
+
+
+.gallery-img {
+    max-width: 350px;
+}
+
+.gold-card {
+    padding: 25px;
+    margin-bottom: 35px;
+    background-color: #d49e17ce;
+    border-radius: 35px;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+    0 1px 18px 0 rgba(0, 0, 0, 0.12),
+    0 3px 5px -1px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:rgb(51, 50, 50);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+iframe {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@media only screen and (max-width:480px) {
+    .motto {
+        font-size: 3rem;
+        white-space: 1rem;
+    }
+
+    .header {
+        background-position: center;
+    }
+
+    .event-img {
+        width: 100px;
+    }
+}
