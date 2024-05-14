@@ -11,7 +11,7 @@
 html, body, .header {
     padding: 0;
     margin: 0;
-    width: 100vw;
+    width: 100dvw;
     min-width: -webkit-fill-available;
     vertical-align: baseline;
 }
@@ -34,7 +34,7 @@ a {
   }
 
 .header {
-    width: 100vw;
+    width: 100dvw;
     height: 75vh;
     background-image: url("./assets/images/banner.jpg");
     background-size: cover;
@@ -46,7 +46,7 @@ a {
 }
 
 .header-overlay-1 {
-    width: 100vw;
+    width: 100dvw;
     height: 75vh;
     top: 0;
     left: 0;
@@ -59,7 +59,7 @@ a {
 
 .header-image {
     width: 100%;
-    height: 75vh;
+    height: 75dvh;
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
