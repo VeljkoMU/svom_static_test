@@ -129,6 +129,7 @@ a {
     z-index: 5;
     display: flex;
     flex-wrap: nowrap;
+    justify-self: flex-end;
     justify-content: center;
     align-content: center;
 }
@@ -309,7 +310,6 @@ iframe {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        height: fit-content;
     }
 
     .header {
@@ -328,15 +328,12 @@ iframe {
 
     .logo {
         margin-bottom: 0;
+        width: 45%;
     }
 
     .o_nama {
         padding: 25px;
         font-size: small;
-    }
-
-    .header {
-        justify-content: space-around;
     }
 
     #chi_ro_icon {
