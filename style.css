@@ -304,11 +304,14 @@ iframe {
     
     .menu-item {
         font-size: 1.8em;
+        align-content: center;
     }
 
     .menu {
         display: flex;
+        height: 150px;
         flex-direction: row;
+        align-content: center;
         justify-content: space-between;
     }
 
@@ -328,7 +331,6 @@ iframe {
 
     .logo {
         margin-bottom: 0;
-        width: 45%;
     }
 
     .o_nama {
