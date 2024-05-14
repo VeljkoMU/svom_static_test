@@ -14,6 +14,7 @@ html, body, .header {
     width: 100dvw;
     min-width: -webkit-fill-available;
     vertical-align: baseline;
+    overflow-x: hidden;
 }
 
 html {
