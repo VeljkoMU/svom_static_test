@@ -299,9 +299,9 @@ iframe {
         white-space: 3rem;
         font-size: 9rem;
     }
-
-    .menu{
-        background-color: blue;
+    
+    .menu-item {
+        font-size: 3.5rem;
     }
 
     .header {
@@ -316,5 +316,10 @@ iframe {
         padding: 0;
         width: 90%;
         padding: 0;
+    }
+
+    .o_nama {
+        padding: 5px;
+        font-size: medium;
     }
 }
