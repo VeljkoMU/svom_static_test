@@ -300,6 +300,10 @@ iframe {
         font-size: 9rem;
     }
 
+    .menu{
+        background-color: blue;
+    }
+
     .header {
         background-position: center;
     }
