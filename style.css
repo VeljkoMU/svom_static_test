@@ -341,4 +341,14 @@ iframe {
         opacity: 0;
         transition: 1s ease-in-out;
     }
+
+    .event-text > p {
+        font-size: 1.7rem;
+    }
+
+    .event-img {
+        width: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
