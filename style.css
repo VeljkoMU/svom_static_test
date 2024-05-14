@@ -296,7 +296,7 @@ iframe {
 
 @media only screen and (orientation: portrait) {
     .motto {
-        white-space: 1rem;
+        white-space: 3rem;
     }
 
     .header {
