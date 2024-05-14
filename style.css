@@ -322,4 +322,8 @@ iframe {
         padding: 5px;
         font-size: small;
     }
+
+    .header {
+        justify-content: space-around;
+    }
 }
