@@ -331,11 +331,17 @@ iframe {
     }
 
     .o_nama {
-        padding: 5px;
+        padding: 25px;
         font-size: small;
     }
 
     .header {
         justify-content: space-around;
+    }
+
+    #chi_ro_icon {
+        width: 150px;
+        opacity: 0;
+        transition: 1s ease-in-out;
     }
 }
