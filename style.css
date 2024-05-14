@@ -301,4 +301,9 @@ iframe {
     .event-img {
         width: 100px;
     }
+
+    .contatiner {
+        padding: 0;
+        width: 90%;
+    }
 }
