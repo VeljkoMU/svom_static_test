@@ -24,6 +24,7 @@ html {
 body {
     background-color: rgb(51, 50, 50);
     min-width: -webkit-fill-available;
+    position: absolute;
 }
 
 a {
