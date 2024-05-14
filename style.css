@@ -289,7 +289,7 @@ iframe {
     100% {opacity: 1;}
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (orientation: portrait) {
     .motto {
         white-space: 1rem;
     }
