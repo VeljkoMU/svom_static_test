@@ -132,6 +132,7 @@ a {
     justify-self: flex-end;
     justify-content: center;
     align-content: center;
+    align-items: center;
 }
 
 .menu-item {
@@ -141,6 +142,7 @@ a {
     height: 100%;
     box-sizing: border-box;
     text-align: center;
+    align-items: center;
     font-size:1.4rem;
     font-weight: 100;
     line-height: normal;
