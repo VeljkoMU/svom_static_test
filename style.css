@@ -365,4 +365,12 @@ iframe {
         margin: 0;
         box-shadow: none;
     }
+
+    .contact {
+        font-size: larger;
+    }
+
+    iframe {
+        width: 100%;
+    }
 }
